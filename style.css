@@ -1,0 +1,83 @@
+span{
+    font-family: cursive;
+}
+h1{
+    text-align: center;
+}
+body{
+    background-color: azure;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+header button{
+    cursor: pointer;
+    padding: 20px;
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+header button:hover{
+    background-color: azure;
+    border: 2px solid blueviolet;
+    color: black;
+}
+.container p{
+    font-size: 18px;
+    margin: -10px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.container a{
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.container-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+    background-color: white;
+    width: 40%;
+    margin-left: 500px;
+    padding: 30px 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 10px;
+}
+.main-cont button{
+    padding: 20px 15px;
+    margin: 2px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.Transaction-Details span{
+    color: green;
+}
+@media (max-width:950px) {
+    .container-div{
+        margin:20px;
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gopay</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="logo-pay.png">
+        <button>Sign up</button>
+    </header>
+
+    <div class="container-div">
+        <div class="main-cont">
+            <h1>Payment App</h1>
+            <p>Balance: <span id="balance">$0.00</span></p>
+            <button id="add-funds">Add Funds</button>
+            <button id="make-payment">Make Payment</button>
+        </div>
+    
+        <!-- Transaction Details -->
+        <div class="Transaction-Details">
+            <span id="Transaction-details-list"></span>
+        </div>
+
+        <!-- Transaction-List -->
+        <div class="transaction-history">
+            <h2>Transaction History</h2>
+            <ul id="transaction-list">
+                <!-- Transaction items will be added here -->
+            </ul>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
